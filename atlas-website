@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Atlas Math Tutoring offers personalized math tutoring for students from 3rd grade through undergrad. Excel in math with expert guidance!">
+    <meta name="keywords" content="math tutoring, algebra, geometry, calculus, SAT prep, online tutoring">
+    <meta name="author" content="Atlas Math Tutoring">
+    <title>Atlas Math Tutoring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-gray-50 to-blue-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold tracking-wide">📘 Atlas Math Tutoring</h1>
+            <nav class="flex space-x-6">
+                <a href="#home" class="hover:underline hover:text-yellow-300">Home</a>
+                <a href="#about" class="hover:underline hover:text-yellow-300">About</a>
+                <a href="#services" class="hover:underline hover:text-yellow-300">Services</a>
+                <a href="#contact" class="hover:underline hover:text-yellow-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-blue-100 py-20 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-5xl font-bold mb-4 text-blue-800">Excel in Math with Expert Guidance</h2>
+                <p class="text-xl mb-6 text-gray-700">Personalized tutoring for 3rd grade through undergrad. Learn and thrive with Atlas.</p>
+                <a href="#contact" class="bg-yellow-500 text-white px-8 py-3 rounded shadow-lg hover:bg-yellow-400">Get Started</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-gradient-to-r from-white to-gray-100 py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4 text-blue-700">About Us</h2>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600">Atlas Math Tutoring is dedicated to helping students unlock their full potential in mathematics. Our expert tutors provide a supportive and customized learning experience to meet each student’s unique needs and goals.</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-white py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-6 text-blue-700">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="p-8 bg-blue-50 rounded shadow-lg hover:shadow-2xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-800">📐 Algebra/Geometry Tutoring</h3>
+                        <p class="text-gray-600">Master the fundamentals of algebra and geometry with engaging and interactive lessons tailored just for you.</p>
+                    </div>
+                    <div class="p-8 bg-blue-50 rounded shadow-lg hover:shadow-2xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-800">📊 Calculus Help</h3>
+                        <p class="text-gray-600">Tackle challenging calculus concepts with ease and achieve academic excellence.</p>
+                    </div>
+                    <div class="p-8 bg-blue-50 rounded shadow-lg hover:shadow-2xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-800">🎯 SAT Test Prep</h3>
+                        <p class="text-gray-600">Achieve top scores on standardized tests with proven strategies and expert guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="bg-gray-200 py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4 text-blue-700">What Our Students Say</h2>
+                <p id="testimonial" class="text-lg text-gray-600">"Atlas Math Tutoring boosted my confidence in algebra!"</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-100 py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4 text-blue-700">Contact Us</h2>
+                <p class="mb-6 text-lg text-gray-600">We’d love to hear from you! Let’s discuss how we can help you achieve your math goals.</p>
+                <!-- Formspree Form -->
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-lg mx-auto space-y-6">
+                    <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 border rounded focus:ring-2 focus:ring-blue-400" required>
+                    <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-3 border rounded focus:ring-2 focus:ring-blue-400" required>
+                    <textarea name="message" placeholder="Your Message" class="w-full px-4 py-3 border rounded focus:ring-2 focus:ring-blue-400" rows="5" required></textarea>
+                    <button type="submit" class="bg-blue-700 text-white px-8 py-3 rounded shadow-lg hover:bg-blue-600">Send Message</button>
+                </form>
+                <p class="mt-6 text-lg text-gray-600">Contact directly at <a href="mailto:atlas.tutoring0@gmail.com" class="text-blue-600 hover:underline">atlas.tutoring0@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-6 text-center">
+        <p class="text-lg">&copy; 2025 Atlas Math Tutoring. Guiding success, one student at a time.</p>
+    </footer>
+
+    <!-- Rotating Testimonials Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const testimonials = [
+                "Atlas Math Tutoring boosted my confidence in algebra!",
+                "Thanks to Atlas, I aced my SATs with a high score!",
+                "The personalized tutoring approach is truly amazing!"
+            ];
+            let currentTestimonial = 0;
+            const testimonialElement = document.getElementById('testimonial');
+
+            setInterval(() => {
+                currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+                testimonialElement.textContent = testimonials[currentTestimonial];
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
